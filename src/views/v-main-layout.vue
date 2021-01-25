@@ -2,7 +2,7 @@
   <div>
     <div>
       <v-loader v-if="show"/>
-      <v-simple-table v-else height="70vh">
+      <v-simple-table v-else height="60vh">
         <template v-if="packages">
           <thead>
           <tr>
@@ -32,6 +32,7 @@
         <div v-else class="d-flex justify-md-center justify-center align-center main__body">
           <p>{{ error == null ? 'Введите название пакета': error}}</p>
         </div>
+
       </v-simple-table>
       <div class="mt-auto">
         <v-pagination
@@ -105,6 +106,6 @@ export default {
     cursor: pointer;
   }
   .main__body {
-    height: 70vh;
+    height: 60vh;
   }
 </style>

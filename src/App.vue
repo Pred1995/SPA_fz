@@ -31,7 +31,7 @@
         <v-row>
           <v-col>
             <v-sheet
-              min-height="70vh"
+              min-height="60vh"
               rounded="lg"
             >
             <router-view />
@@ -55,7 +55,7 @@
              >
                <v-list-item three-line>
                  <v-list-item-content>
-                   <div class="overline mb-4">
+                   <div class="overline">
                      Информация об авторе
                    </div>
                    <v-list-item-title class="headline mb-1">
@@ -64,11 +64,6 @@
                    <v-list-item-subtitle>Github: <a href="https://github.com/Pred1995" target="_blank">https://github.com/Pred1995</a> </v-list-item-subtitle>
                  </v-list-item-content>
 
-                 <v-list-item-avatar
-                   tile
-                   size="80"
-                   color="grey"
-                 ></v-list-item-avatar>
                </v-list-item>
              </v-card>
            </v-col>
